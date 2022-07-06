@@ -3,37 +3,8 @@
 #include <fstream>
 #include <vector>
 #include "dataBase.h"
-//#include "DBMS.h"
 using namespace std;
-/*
-int main(){
-    DBMS dbms;
-    dbms.ejecutar();
 
-
-    std::fstream newfile;
-    newfile.open("base.txt",std::ios::in);
-    if (newfile.is_open()){
-        std::string p;
-        std::string word;
-        std::vector<std::string> words;
-        while(getline(newfile, p)){
-            for(int i=0; i<p.size(); i++){
-                if(p[i]!=' '){
-                    word+=p[i];
-                }else{
-                    words.push_back(word);
-                    std::cout<<word<<std::endl;
-                    word="";
-                }
-            }
-            std::cout<<'\n';
-        }
-        newfile.close();
-    }
-    return 0;
-}
-*/
 int main(){
     
     vector<pair<string,string>> parametros;
