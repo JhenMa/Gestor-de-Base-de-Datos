@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
     
-    vector<pair<string,string>> parametros;
+    vector<pair<string,string>> parametros;//(clave,valor)
     parametros.push_back(pair<string,string>("id_paciente","int"));
     parametros.push_back(pair<string,string>("nombre","varchar(20)"));
     parametros.push_back(pair<string,string>("edad","int"));
